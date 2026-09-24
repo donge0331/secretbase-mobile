@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import classNames from 'classnames';
 import autobind from 'class-autobind';
 import { DragDropContext } from 'react-dnd';
-import HTML5Backend from 'react-dnd-html5-backend';
+import TouchBackend from 'react-dnd-html5-backend';
 import download from 'downloadjs';
 import queryString from 'query-string';
 import store from 'store';
@@ -284,4 +284,8 @@ class App extends Component {
 
 };
 
-export default DragDropContext(HTML5Backend)(App);
+export default DragDropContext(
+  TouchBackend({
+    enableMouseEvents: true,
+  })
+)(App);
