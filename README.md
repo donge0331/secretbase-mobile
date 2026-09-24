@@ -1,9 +1,1 @@
-# hoenn secret base designer
-
-funny thing I made this thing when I was 10 and lost the code on freewebs and this is me remaking it in honor of Omega Ruby/Alpha Sapphire coming out on my birthday
-
-
-all assets are 2x
-
-
-php.ini requires allow_url_fopen = On
+An attempt to add mobile touch support to https://github.com/cubeghost/secretbase
