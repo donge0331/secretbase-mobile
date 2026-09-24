@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import classNames from 'classnames';
 import autobind from 'class-autobind';
 import { DragDropContext } from 'react-dnd';
-import TouchBackend from 'react-dnd-html5-backend';
+import TouchBackend from '@automsoft/react-dnd-touch-backend';
 import download from 'downloadjs';
 import queryString from 'query-string';
 import store from 'store';
